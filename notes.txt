@@ -1,0 +1,56 @@
+18/05/2023
+typeof = Ele mostra o tipo que é a variavel ou objecto
+
+Types JavaScript:
+number
+  Infinity
+  NaN
+string  = São caracteres, palavras
+boolean  = tipo verdadeiro ou falso (True or False)
+null  
+undefined
+object = defini um objeto
+  Array
+function
+
+Consigo mudar o tipo de uma variavel como:
+
+var n = 200 
+typeof n
+n is 'number'
+
+n = 'Murilo'
+typeof n
+n is 'string'
+
+eu consigo mudar o valor de uma variavel e também o tipo que essa variavel é
+
++ serve para concatenação e para adição
+
+para somar no javascript ele tera q ser um (number + number), se for uma string ele ira concatenar os dois numeros
+
+para converter uma string para number no JS usasse:
+Number.parseInt(n); = converte para um numero inteiro
+Number.parseFloat(n); = converter para um numero flutuante
+
+Posso converter também utilizando somente :
+Number(n);
+
+para converter um numero para string utilizo:
+String(n);
+n.toString(n);
+
+No JS para se concatenar varias variaveis sem usar '+' usasse o template de strings
+Exemplo:
+var nome = 'Murilo'
+var idade = 22
+var salario = 5200
+
+`Meu nome é ${nome}, tenho ${idade} anos e meu salário é de ${salario}`
+
+ATENÇÃO: Para funcionar o template de strings a string tem que estar entre CRASES ``
+
+var nome = 'Murilo'
+nome.length // o length mostra qual o tamanho da string(quantos caracteres há)
+nome.toUpperCase() //ela transforma a string em MAISCULAS
+nome.toLowerCase() // ela transforma a string em minusculas
