@@ -54,3 +54,45 @@ var nome = 'Murilo'
 nome.length // o length mostra qual o tamanho da string(quantos caracteres há)
 nome.toUpperCase() //ela transforma a string em MAISCULAS
 nome.toLowerCase() // ela transforma a string em minusculas
+
+19/05/2023
+Document.write(''); = Serve para escrever no browser
+
+</br> = quebra linha
+
+Para tratar numeros:
+n1 = 874.5
+n1.toFixed(3) = toFixed ira fixar quantas casas decimais irão aparecer dps da virgula
+874.500
+n1.toFixed(2).replace('.', ','); = replace ira trocar o ponto por  virgula ou qualquer coisa q eu declarar
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) = é uma atributo onde ele ira pegar as configurações da onde eu declarar nos colchetes como, currency para converter para monetario e "BRL" para moeda brasileira
+
+Operadores:
+
+Aritméticos
+Atribuição
+Relacionais
+Lógicos
+Ternário
+
+Aritméticos:
+ 5 + 2 = 7
+ 5 - 2 = 3
+ 5 * 2 = 10
+ 5 / 2 = 2,5
+ 5 % 2 = 1
+ 5 ** 2 = 25
+ 
+ Ordêm de precedência:
+ ()
+ **
+ * / %
+ + -
+ 
+ var n = 3
+ n += 4 : o mais pega a propria variavel e soma com o numero que ele recebe nesse caso 4, n = n + 4
+ n -= 4 : n = n - 4
+ n *= 4 : n = n*= 4
+ n **= 4 : n = n ** 4
+ n %= 4 : n = n % 4
