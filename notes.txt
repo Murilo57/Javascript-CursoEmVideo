@@ -96,3 +96,54 @@ Aritméticos:
  n *= 4 : n = n*= 4
  n **= 4 : n = n ** 4
  n %= 4 : n = n % 4
+ 
+ 27/05/2023 - 12:07PM
+ 
+Operadores lógicos JS ja na ordem de precedencia:
+!  Negação  (not)  T or F
+&&  Conjunção (and)  
+||  Disjunção (or)
+
+Operador Ternario:
+
+? : esses dois componentes vao dentro de uma expressão
+
+Sintaxe:
+Teste ? True : False
+
+ele define oq vai acontecer com o resultado da Variavel "Teste" se a expressão for True ele vai fazer alguma ação ou se for False fará outra ação
+
+DOM
+
+Tree DOM
+
+what are tree DOM?
+The DOM tree start from the root being her:
+
+Root:
+window:
+location/document/history
+          html
+     head     body		  
+  meta/title  	 h1/p/ p /div
+                    strong
+					
+Selected:
+
+for Marca
+getElementsByTagName()
+
+for ID
+getElementByid()
+
+for Name
+getElementsByName()
+
+for Class
+getElementsByClassName()
+
+for Seletor					
+querySelector()
+querySelectorAll()
+
+All div are identification with #, and Classes is identification with .
