@@ -143,7 +143,43 @@ for Class
 getElementsByClassName()
 
 for Seletor					
-querySelector()
+querySelector()  -- Selecionar componentes css
 querySelectorAll()
 
 All div are identification with #, and Classes is identification with .
+
+31/05/2023
+Events DOM
+
+Event Mouse:
+mouseenter - when passing mouse in component
+mousemove  - when moving mouse for the component
+mousedown  - when click in component and to hold
+mouseup    - when click and realese the mouse
+click      - click and realese fast
+
+Function in JavaScript
+
+Sintaxe:
+Function action(param){
+}
+
+Condition in JavaScript
+
+Sintaxe:
+if (condition){
+  True
+  
+} else{
+
+  False
+}
+
+Type of condition
+  
+//Simple condition
+if (condition) {
+  True
+}
+
+if(condition )
