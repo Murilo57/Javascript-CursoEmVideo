@@ -183,3 +183,16 @@ if (condition) {
 }
 
 if(condition )
+
+Condition Nested:
+I take a condition composted and i put outhers conditions inside her, for example:
+
+  if (condition1) {
+    bloco1
+  } else {
+    if (cond2){
+      bloco2
+    } else {
+      bloco3
+    }
+  }
