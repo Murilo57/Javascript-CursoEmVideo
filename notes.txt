@@ -196,3 +196,20 @@ I take a condition composted and i put outhers conditions inside her, for exampl
       bloco3
     }
   }
+  
+  
+Condition Multiple:
+For work with values fixes
+
+Example:
+ Switch(expression){
+   case valor 1:
+     break
+   case valor 2:
+     break
+   case valor 3:
+     break
+   default:
+     break   
+ }
+  
