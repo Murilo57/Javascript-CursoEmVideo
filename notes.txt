@@ -213,3 +213,48 @@ Example:
      break   
  }
   
+  12/06/2023
+  //Estrutura de repetição com teste logico no inicio
+  while(condição){
+     Bloco  
+  }
+  
+  //Estrutura de repetição com teste logico no final
+  do {
+    Bloco 
+  } while (condição)
+  
+  
+  //Estrutura de repetição com variavel de controle
+  for(inicio; teste; incr) {
+     Bloco
+  }
+  
+  var c=1
+  for(var c=1; c<=10; c++ ) {
+  
+  }
+  
+  13/06/2023
+  Variaveis
+  
+  º Variaveis simples só conseguem armazenar um valor por vez.
+  º Variaveis compostas devem ser capazes de armazenar vários valores em uma mesma estrutura
+  
+  Variaveis compostas:
+  Array vetor
+  
+  Dentro de um vetor a elementos eles sao identificados por indice (começando por 0) e cada indice tem um valor (conteudo)
+  
+  15/06/2023
+  Funções
+  
+  Chamada (parametros)
+   ação
+   
+   retorno
+   
+   Nem todas as funções tem retorno ou parametros
+   
+   ºSão ações executadas assim que são chamadas ou em decorrencia de algum evento
+   ºUma função pode receber parametros e retornar um resultado
