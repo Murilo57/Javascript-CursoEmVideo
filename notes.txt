@@ -258,3 +258,18 @@ Example:
    
    ºSão ações executadas assim que são chamadas ou em decorrencia de algum evento
    ºUma função pode receber parametros e retornar um resultado
+
+ 16/06/2023
+ Teste funções
+
+  function parimp(n) {
+    if(n%2==0){
+      return 'par'
+    } else {
+      return 'impar'
+    }
+ }  
+
+ chamada de função:
+
+ let res = parimp(11)
