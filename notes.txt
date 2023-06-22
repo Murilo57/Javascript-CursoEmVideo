@@ -273,3 +273,28 @@ Example:
  chamada de função:
 
  let res = parimp(11)
+
+ 22/06/2023
+ Conteudos para estudar daqui a diante:
+
+ Functions
+ Objetos
+ Modularização
+ RegEx
+ JSON
+ AJAX
+ Node.JS
+
+ Objetos:
+ let num = []
+
+ uma variavel se torna uma array quando declarada um colchetes nela, mas não é uma variavel pequena e sim uma variavel com um espaço dividido em 3
+
+ para se criar um objeto se cria uma variavel e atribui chaves nele
+
+ let amigo = {nome:'José', sexo:'M', peso: 85.4, engordar(p){}}
+  as virgulas dentro dos colchetes servem para criar espaços dentro desse objeto, o objeto é um bom elemento para usar em algo mais avançado em que possa substituir o array por ter algumas funcionalidades a mais.
+
+  No objeto eu posso declarar tanto strings quanto numeros, boolean, eu declaro uma variavel em um espaço desse objeto e o valor dessa variavel e assim acesso essas variaveis pelo valor literal declarado
+
+  no final foi delclarado um item "engordar(p){}" com o parametro "p", dentro desse parametro eu declaro umas function
